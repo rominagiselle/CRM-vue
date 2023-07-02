@@ -1,0 +1,32 @@
+{
+  "clientes": [
+    {
+      "nombre": "Romina",
+      "apellido": "Helou",
+      "email": "romsitta@gmail.com",
+      "telefono": "642081272",
+      "id": 1
+    },
+    {
+      "nombre": "Romina",
+      "apellido": "Helou",
+      "email": "romsitta@gmail.com",
+      "telefono": "642081272",
+      "id": 2
+    },
+    {
+      "nombre": "Romina",
+      "apellido": "Helou",
+      "email": "romsitta@gmail.com",
+      "telefono": "642081272",
+      "id": 3
+    },
+    {
+      "nombre": "Romina",
+      "apellido": "Helou",
+      "email": "rominahelou@gmail.com",
+      "telefono": "642081272",
+      "id": 4
+    }
+  ]
+}
