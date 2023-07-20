@@ -3,18 +3,17 @@
     {
       "nombre": "Romina",
       "apellido": "Helou",
-      "email": "rominahelou@gmail.com",
+      "email": "romsitta@gmail.com",
       "telefono": "642081272",
       "estado": 1,
-      "id": 1
+      "id": 2
     },
     {
-      "nombre": "pepa",
-      "apellido": "Helou",
-      "email": "rominahelou@gmail.com",
-      "telefono": "642081272",
-      "estado": 0,
-      "id": 2
+      "nombre": "Romina",
+      "apellido": "Giselle",
+      "email": "romsitta@gmail.com",
+      "estado": 1,
+      "id": 3
     }
   ]
 }
