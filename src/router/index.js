@@ -6,13 +6,18 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'inicio',
+      name: 'listado-clientes',
       component: Inicio
     },
     {
       path: '/agregar-cliente',
       name: 'agregar-cliente',
       component: () => import('../views/NewClientView.vue')
+    },
+    {
+      path: '/editar-cliente/:id',
+      name: 'editar-cliente',
+      component: () => import('../views/EditClientView.vue')
     }
   ]
 })

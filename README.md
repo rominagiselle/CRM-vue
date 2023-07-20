@@ -27,3 +27,12 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+## instalar base de datos
+
+npm install -g json-server
+
+## activarla
+
+json-server --watch db.json --port 4000

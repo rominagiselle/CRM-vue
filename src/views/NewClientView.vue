@@ -1,5 +1,5 @@
 <script setup>
-import axios from 'axios'
+import ClientService from '../services/ClientService'
 import { FormKit } from '@formkit/vue'
 import { useRouter } from 'vue-router';
 import RouterLink from '../components/UI/RouterLink.vue'
@@ -8,10 +8,10 @@ import RouterLink from '../components/UI/RouterLink.vue'
 const router = useRouter()
 
 const handleSubmit = (data) => {
-    axios.post('http://localhost:4000/clientes', data)
+    data.estado = 1
+    ClientService.agregarCliente(data)
     .then(response => {
-        console.log(response)
-        router.push({ name: 'inicio'})
+        router.push({ name: 'listado-clientes'})
     } )
     .catch(error => console.log(error))
 }
@@ -20,7 +20,7 @@ const handleSubmit = (data) => {
 <template>
     <div>
         <div class="flex justify-end">
-            <RouterLink to="inicio"> Volver</RouterLink>
+            <RouterLink to="listado-clientes"> Volver</RouterLink>
         </div>
         <h1 class="text-4xl font-extrabold text-slate-500">Agregar Cliente</h1>
 
